@@ -1,0 +1,28 @@
+/* css reset */
+body,ul,li{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style-type: none;
+}
+.fixfloat:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+h1,#container{
+    margin-left:50px;
+}
+
+#container li{
+    float: left;
+    margin:20px;
+}
+
+img{
+    width:50%;
+    margin-left:40px;
+    border:5px solid #ccc;
+}
